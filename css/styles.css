@@ -1,0 +1,135 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 7%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.containers
+{
+    padding: 3% 15%;
+    
+}
+h1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+.img{
+    float: right;
+    height: 600px;
+    width: 300px;
+    margin: 20px;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+body{
+    font-family: 'ubuntu';
+    background-color: white;
+}
+.navs{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.centers{
+    display: flex;
+    justify-content: center;
+}
+#features{
+   position: relative;
+   background-color: white;
+   padding: 10% 15%;
+}
+.icons{
+    color: #ef8172;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+.features{
+    margin-top: 40px;
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.para{
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.img2{
+    border-radius: 100%;
+    width: 15%;
+    padding: 20px;
+}
+h2{
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.Press1{
+    width: 10%;
+    margin: auto 20px 20px 20px;
+}
+#pricing{
+    text-align: center;
+}
+.card{
+    margin: 3% 5%;
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7%;
+}
+.cta{
+    margin: 5% 9%;
+    font-size: 3rem;
+}
+.bto{
+    margin-left: 20px;
+}
+#footer{
+    margin: 6% 7%;
+    text-align: center;
+}
+.foot{
+    margin: 7px;
+}
+.par{
+    margin-top: 5px;
+}
+@media (max-width:1028px){
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    .img3{
+        display: flex;
+        justify-content: center;
+    }
+}
